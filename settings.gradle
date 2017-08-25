@@ -1,0 +1,6 @@
+rootProject.name = 'xcloud'
+include 'eureka-server'
+include 'xbs-service-a'
+include 'xbs-service-b'
+include 'xbs-feign'
+
