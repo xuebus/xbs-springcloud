@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
  * Created by SYJ on 2017/8/25.
  */
 @RestController
-@RequestMapping(value = "/feign")
+@RequestMapping(value = "/feign",produces = {"application/json;charset=UTF-8"})
 public class TestConroller {
 
     @Autowired
